@@ -1,0 +1,6 @@
+@echo off
+cd c:/"
+for /l %%i in (1, 1, 5) do (
+    echo %%i
+    mkdir %%i
+)
